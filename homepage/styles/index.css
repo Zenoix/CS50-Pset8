@@ -1,0 +1,43 @@
+.actions {
+    display: block;
+    text-align: center;
+    margin: 20 auto 0 auto;
+    /*
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);*/
+}
+
+#recbtn {
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+    background: #ffb4ef;
+    color: rgba(27, 27, 27, 0.87);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 200ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#recbtn:hover {
+    background: #ff9be9;
+}
+
+#recbtn:active {
+    outline: none;
+    transform: scale(0.98);
+}
+
+#random,
+#repolink {
+    text-decoration: underline;
+}
