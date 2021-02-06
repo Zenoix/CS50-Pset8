@@ -37,3 +37,7 @@ img {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.active {
+    color: rgba(255, 255, 255, 1) !important;
+}
