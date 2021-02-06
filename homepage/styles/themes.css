@@ -27,24 +27,19 @@ https://material.io/design/color/dark-theme.html
         background: var(--bkg-color);
         --text-color: #121212;
         --bkg-color: #fff;
-        --anchor-color: #121212;
+        /*--anchor-color: #121212;*/
     }
 
     body.dark-theme {
         --text-color: #eee;
         --text-color: rgba(256, 256, 256, 0.87);
         --bkg-color: #121212;
-        --anchor-color: #ffb4ef;
+        /*--anchor-color: #ffb4ef;*/
     }
 
-    a {
+    /*a {
         color: var(--anchor-color);
-    }
-
-    body.dark-theme #banner {
-        -webkit-filter: drop-shadow(5px 7px 5px#ffb4ef);
-        filter: drop-shadow(5px 7px 5px #ffb4ef);
-    }
+    }*/
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,16 +49,16 @@ https://material.io/design/color/dark-theme.html
         --text-color: #eee;
         --text-color: rgba(256, 256, 256, 0.87);
         --bkg-color: #121212;
-        --anchor-color: #ffb4ef;
+        /*--anchor-color: #ffb4ef;*/
     }
 
     body.light-theme {
         --text-color: #121212;
         --bkg-color: #fff;
-        --anchor-color: #121212;
+        /*--anchor-color: #121212;*/
     }
 
-    a {
+    /*a {
         color: var(--anchor-color);
-    }
+    }*/
 }
